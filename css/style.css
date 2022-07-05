@@ -36,12 +36,18 @@ P {
 	min-height: 600px;
 	margin: auto;
 	overflow: hidden;
+	padding-top: 100px;
 }
 
 
 .half-width {
 	width: 45%;
 	min-height: 550px;
+	float: left;
+}
+
+.half-width > img{
+	width: 100%
 }
 
 .center {
