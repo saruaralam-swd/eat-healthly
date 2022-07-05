@@ -5,29 +5,40 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>eat-healthly | Home</title>
-	<link rel="shortcut icon" href="images/fav-icon.png" type="image/x-icon">
+	<title>About Me</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
+<style>
+	.about-me-section {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		justify-content: space-evenly;
+		padding-top: 30px;
+		background: url(images/background/7.png);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.box {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.box-2 {
+		width: 70%;
+		margin-top: 50px;
+		;
+	}
+</style>
 
 <body>
-	<section class="order-food-section">
-		<div class="half-width center">
-			<div>
-				<h1><span class="skip-color">Skip</span> The Diet, <br>Just Eat Health With Food Network</h1>
-				<p>Imagine you don't need a diet because we provide healthy and delicious food for you!</p>
-				<a href="#" class="order-btn">Order Food</a>
-			</div>
-		</div>
-		<div class="half-width">
-			<img src="images/background/bod-with-bdy.png" alt="">
-		</div>
-	</section>
-	
+	<!--2nd section -->
 	<section class="about-me-section">
 		<div class="box">
 			<img src="images/femal.png" alt="" width="40%">
 		</div>
+
 		<div class="box-2">
 			<div>
 				<h1>About me</h1>
@@ -38,10 +49,7 @@
 			</div>
 		</div>
 	</section>
-	
-	<section class="recipies-section"></section>
-	<section class="viwer-section"></section>
-	<footer></footer>
+
 </body>
 
 </html>

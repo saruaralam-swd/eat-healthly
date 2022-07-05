@@ -4,7 +4,6 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	/*background-color: #E5E5E5;*/
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -12,15 +11,12 @@ p {
 	color: #828282
 }
 
-P {
-	color: sl
-}
-
 .skip-color {
 	color: #FB924A
 }
 
-.order-btn {
+.order-btn,
+.contact-btn {
 	text-decoration: none;
 	color: #fff;
 	background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
@@ -30,7 +26,17 @@ P {
 	font-size: 20px;
 }
 
+.order-btn:hover,
+.contact-btn:hover {
+	background: linear-gradient(88.33deg, #FF1E1E -7.64%, #FBA24F 145.94%);
+}
 
+.order-food-section,
+.about-me-section {
+	margin-bottom: 50px;
+}
+
+/*.order-food-section */
 .order-food-section {
 	width: 90%;
 	min-height: 600px;
@@ -46,7 +52,7 @@ P {
 	float: left;
 }
 
-.half-width > img{
+.half-width>img {
 	width: 100%
 }
 
@@ -58,4 +64,52 @@ P {
 
 .center>div>h1 {
 	font-size: 59px;
+}
+
+/*about-me-section*/
+/*.about-me-section {
+	min-height: 500px;
+	border: 1px solid black;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.about-me-section>div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.about-img {
+	width: 39%;
+	position: relative;
+	top: 41px;
+	object-fit: contain;
+}
+
+.about-describtion>div {
+	width: 40%;
+}*/
+
+.about-me-section {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: space-evenly;
+	padding-top: 30px;
+	background: url("../images/background/7.png");
+	background-repeat: no-repeat;
+	background-position:center;
+	/*background-size: contain;*/
+}
+
+.box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box-2 {
+	width: 70%;
+	margin-top: 50px;
+	;
 }
