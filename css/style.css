@@ -8,7 +8,8 @@ body {
 }
 
 p {
-	color: #828282
+	color: #828282;
+	margin: 40px 0px;
 }
 
 .skip-color {
