@@ -33,7 +33,9 @@ p {
 }
 
 .order-food-section,
-.about-me-section {
+.about-me-section,
+.recipies-section,
+.viwer-section {
 	margin-bottom: 50px;
 }
 
@@ -42,8 +44,7 @@ p {
 	width: 90%;
 	min-height: 600px;
 	margin: auto;
-	overflow: hidden;
-	padding-top: 100px;
+	padding: 80px 0px;
 }
 
 
@@ -68,39 +69,13 @@ p {
 }
 
 /*about-me-section*/
-/*.about-me-section {
-	min-height: 500px;
-	border: 1px solid black;
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-}
-
-.about-me-section>div {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.about-img {
-	width: 39%;
-	position: relative;
-	top: 41px;
-	object-fit: contain;
-}
-
-.about-describtion>div {
-	width: 40%;
-}*/
-
 .about-me-section {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	justify-content: space-evenly;
-	padding-top: 30px;
 	background: url("../images/background/7.png");
 	background-repeat: no-repeat;
-	background-position:center;
-	/*background-size: contain;*/
+	background-size: contain;
+	min-height: 600px;
 }
 
 .box {
@@ -112,5 +87,63 @@ p {
 .box-2 {
 	width: 70%;
 	margin-top: 50px;
-	;
+}
+
+/*recipies-section*/
+.recipies-section {
+	width: 90%;
+	margin: auto;
+	min-height: 700px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.recipies-boxes {
+	display: flex;
+	justify-content: space-between;
+}
+
+.recipies-box {
+	width: 43%;
+	text-align: left;
+	box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+	border-radius: 16px;
+	padding: 30px;
+}
+
+.recipies-box img {
+	width: 100%;
+	border-radius: 30px;
+	display: inline-block;
+}
+
+.recipies-box h2{
+	margin: 0px 0px 18px 0px;
+}
+
+.recipies-box p{
+	margin: 0;
+}
+
+/*viwer-section*/
+.viwer-section{
+	width: 90%;
+	margin: auto;
+	min-height: 150px;
+	box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.footer-section {
+	background-color: #0B0D17;
+	text-align: center;
+	min-height: 200px;
+}
+
+.footer-section h3 {
+	color: #5B5B5B;
 }
