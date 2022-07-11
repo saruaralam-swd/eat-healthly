@@ -141,9 +141,13 @@ p {
 .footer-section {
 	background-color: #0B0D17;
 	text-align: center;
-	min-height: 200px;
+	min-height: 100px;
 }
 
 .footer-section h2 {
-	color: #5B5B5B;
+	color: #828282;
+}
+
+.footer-section p{
+	margin: 0;
 }
